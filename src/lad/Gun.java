@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package wiki;
+package lad;
 
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
@@ -11,12 +11,12 @@ import kd_tree.Kd_tree;
 import kd_tree.PointEntry;
 import robocode.ScannedRobotEvent;
 import robocode.util.Utils;
-import static wiki.BasicSurfer._oppEnergy;
-import static wiki.BasicSurfer.bulletVelocity;
-import static wiki.BasicSurfer.project;
+import static lad.BasicSurfer._oppEnergy;
+import static lad.BasicSurfer.bulletVelocity;
+import static lad.BasicSurfer.project;
 
 import robocode.*;
-import static wiki.BasicSurfer.NUM_DIMENSIONS_FOR_KDTREE;
+import static lad.BasicSurfer.NUM_DIMENSIONS_FOR_KDTREE;
 
 /**
  *

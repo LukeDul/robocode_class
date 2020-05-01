@@ -1,4 +1,4 @@
-package wiki;
+package lad;
 
 import robocode.*;
 import robocode.util.Utils;
@@ -46,7 +46,6 @@ public class BasicSurfer extends AdvancedRobot {
         _enemyWaves = new ArrayList<EnemyWave>();
         _surfDirections = new ArrayList<Integer>();
         _surfAbsBearings = new ArrayList<Double>();
-
         setAdjustGunForRobotTurn(true);
         setAdjustRadarForGunTurn(true);
 
