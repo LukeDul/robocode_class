@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 
 import kd_tree.*;
 
-public class BasicSurfer extends AdvancedRobot {
+public class SurferBro extends AdvancedRobot {
 
     public static int BINS = 47;
     public static double _surfStats[] = new double[BINS]; // we'll use 47 bins
@@ -48,7 +48,7 @@ public class BasicSurfer extends AdvancedRobot {
         _surfAbsBearings = new ArrayList<Double>();
         setAdjustGunForRobotTurn(true);
         setAdjustRadarForGunTurn(true);
-
+       
         do {
             // basic mini-radar code
             turnRadarRightRadians(Double.POSITIVE_INFINITY);
