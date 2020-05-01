@@ -11,12 +11,12 @@ import kd_tree.Kd_tree;
 import kd_tree.PointEntry;
 import robocode.ScannedRobotEvent;
 import robocode.util.Utils;
-import static lad.BasicSurfer._oppEnergy;
-import static lad.BasicSurfer.bulletVelocity;
-import static lad.BasicSurfer.project;
+import static lad.SurferBro._oppEnergy;
+import static lad.SurferBro.bulletVelocity;
+import static lad.SurferBro.project;
 
 import robocode.*;
-import static lad.BasicSurfer.NUM_DIMENSIONS_FOR_KDTREE;
+import static lad.SurferBro.NUM_DIMENSIONS_FOR_KDTREE;
 
 /**
  *
