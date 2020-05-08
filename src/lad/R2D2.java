@@ -34,6 +34,8 @@ public class R2D2 extends AdvancedRobot {
         while (true) {
             // basic mini-radar code
             turnRadarRightRadians(Double.POSITIVE_INFINITY);
+            setTurnRightRadians(Math.PI/2);
+            
         }
     }
 
